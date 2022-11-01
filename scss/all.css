@@ -53,4 +53,8 @@ table {
 
 *, *:before, *:after {
   box-sizing: border-box;
+}
+
+h1 {
+  color: #891818;
 }/*# sourceMappingURL=all.css.map */
