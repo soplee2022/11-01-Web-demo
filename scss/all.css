@@ -183,11 +183,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.525rem + 3.3vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
 
@@ -8083,7 +8083,7 @@ textarea.form-control-lg {
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: calc(1.525rem + 3.3vw) !important;
 }
 
 .fs-3 {
@@ -10953,7 +10953,7 @@ textarea.form-control-lg {
     font-size: 5rem !important;
   }
   .fs-2 {
-    font-size: 2rem !important;
+    font-size: 4rem !important;
   }
   .fs-3 {
     font-size: 1.75rem !important;
@@ -11113,11 +11113,11 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
+  font-size: calc(1.525rem + 3.3vw);
 }
 @media (min-width: 1200px) {
   h2, .h2 {
-    font-size: 2rem;
+    font-size: 4rem;
   }
 }
 
@@ -12756,7 +12756,6 @@ time, mark, .mark, audio, video {
   position: relative;
 }
 .banner .title {
-  border: solid black 1px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -12764,4 +12763,27 @@ time, mark, .mark, audio, video {
 }
 .banner li {
   margin: 5px;
+}
+
+.about h2, .about .h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.about img {
+  max-width: 40%;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+.about .line {
+  border-bottom: 1px solid #000;
+  margin: 2rem;
+}
+.about .introduce img {
+  width: 3%;
+  margin: 0;
+  margin-bottom: 8px;
+  margin-right: 10px;
+}
+.about .introduce li {
+  margin: 0 auto;
 }/*# sourceMappingURL=all.css.map */

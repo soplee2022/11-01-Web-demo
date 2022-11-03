@@ -26,7 +26,7 @@ time, mark, audio, video {
     position: relative;
 
     .title{
-        border: solid black 1px;
+        // border: solid black 1px;
         position: absolute;
         top: 50%;
         left: 50%;
@@ -35,5 +35,39 @@ time, mark, audio, video {
 
     li{
         margin: 5px;
+    }
+}
+
+.about{
+    h2{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    img{
+        max-width: 40%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    .line{
+        border-bottom: 1px solid #000;
+        margin: 2rem;
+    }
+    .introduce{
+        img{
+            width: 3%;
+            margin: 0;
+            margin-bottom: 8px;
+            margin-right: 10px;
+        }
+        li{
+            margin: 0 auto;
+        }
+    }
+}
+
+.brand{
+    .brand-img{
+        // max-width: 792px;
+        // object-fit: cover;
     }
 }
