@@ -1,5 +1,35 @@
-@import "_CSSreset";
-@import "_font-style";
-@import "_variable";
-@import "_mixin";
-@import "_index";
+@import "CSSreset";
+@import "font-style";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// // 2. Include any default variable overrides here
+// @import "variables"; // 自訂
+// @import "utilities"; // 自訂
+
+// // 3. Include remainder of required Bootstrap stylesheets
+
+// 直接修改官方內容
+// 到 bootstrap.css 查 class
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// // 4. Include any optional Bootstrap components as you like
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+
+// 5. Add additional custom code here
+
+@import "mixin";
+@import "myVariable";
+@import "index";
